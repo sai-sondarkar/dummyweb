@@ -1,0 +1,467 @@
+/*team_area_solid css
+=====================================================================*/
+.team_area_solid{
+    padding: 120px 0px;
+}
+
+.team_member{
+    background: #fff;
+    img{
+        max-width: 100%;
+    }
+    .content{
+        text-align: center;
+        padding: 36px 56px 30px;
+        h2{
+            font: 700 18px/28px $rob;
+            color: $title;
+            text-transform: capitalize;
+        }
+        h6{
+            color: #666666;
+            font-family: $rob;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            padding-bottom: 16px;
+        }
+        .social{
+            padding-top: 20px;
+            a{
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+                text-align: center;
+                line-height: 34px;
+                font-size: 16px;
+                border-radius: 50%;
+                color: #111111;
+                margin: 0px 3px;
+                transition: all 0.4s linear;
+                &:hover{
+                    background: #4c83ff;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &:hover{
+        h2{
+            color: #4c83ff;
+            background-image: none;
+        }
+    }
+}
+
+
+/* Start Overview-area css
+===========================================*/
+.testimonial_area{
+    padding: 110px 0px 100px;
+    overflow: hidden;
+}
+.testimonial-carousel{
+    .testimonial-item{
+        margin: 35px 15px 10px;
+        padding: 0px 50px 30px;
+        -webkit-tap-highlight-color:inherit;
+        text-align: center;
+        background: #fff;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        img{
+            width: auto;
+            display: inline-block;
+        }
+        .icon{
+            background-color: #f8fafc;
+            box-shadow: 0px 3px 7px 0px rgba(26, 38, 74, 0.15);
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            top: -35px;
+            border-radius: 50%;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+        p{
+            font: 400 18px/32px $open;
+            font-style: italic;
+            color: #585e68;
+        }
+        .media{
+            max-width: 290px;
+            margin: 20px auto 0px;
+            .media-left{
+                padding-right: 25px;
+            }
+            .media-body{
+                text-align: left;
+                vertical-align: middle;
+                padding-top: 10px;
+                h2{
+                    font: 600 18px/32px $rob;
+                    color: #555555;
+                }
+                h6{
+                    font: 400 16px/22px $open;
+                    color: #585e68;
+                }
+            }
+        }
+    }
+}
+.owl-dots{
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    .owl-dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border:1px solid #4c83ff;
+        display: inline-block;
+        margin: 0px 3px;
+        &.active{
+            background: #4c83ff;
+        }
+    }
+}
+
+
+/*=========== Start clients-logo-area ==============*/
+.clients-logo-area{
+    padding: 105px 0px 120px;
+}
+.clients-lg-slider{
+    padding-top: 45px;
+    .item{
+        img{
+            margin: 0 auto;
+            max-width: 100%;
+            width: auto;
+            opacity: 0.35;
+            transition: all 0.4s linear;
+        }
+        &:hover{
+            img{
+                opacity: 1;
+            }
+        }
+    }
+    .owl-dots{
+        display: none;
+    }
+}
+/*=========== End clients-logo-area ==============*/
+
+
+
+.team_area{
+    padding: 142px 0px;
+}
+.team-slider{
+    max-width: 800px;
+    margin: 0 auto;
+    .item{
+        text-align: center;
+        transform: scale(0.7);
+        transition: all 0.4s linear;
+        .round{
+            width: 195px;
+            height: 195px;
+            border-radius: 50%;
+            padding: 6px;
+            background: #43308d;
+            margin: 0 auto;
+            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+            img{
+                width: auto;
+            }
+        }
+        .content{
+            opacity: 0;
+            visibility: hidden;
+            padding-top: 20px;
+            h2{
+                font: 500 20px/30px $pop;
+                color: #fff;
+            }
+            h5{
+                font: 400 14px/26px $pop;
+                color: #cbcbcb;
+                text-transform: uppercase;
+                padding-top: 5px;
+            }
+        }
+    }
+    .center{
+        .item{
+            transform: scale(1);
+            .content{
+                opacity: 1;
+                visibility: visible;
+            }
+        } 
+    }
+    .owl-dots{
+        margin-top: 85px;
+        .owl-dot{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 1px solid #f7c30f;
+            &.active{
+                background: #f7c30f;
+            }
+        }
+    }
+}
+
+
+
+/*===============================how_work_area css==========================*/
+.how_work_area_eight{
+    background: #f9f9f9;
+    padding: 80px 0px 100px;
+    overflow: hidden;
+    .mobile_img{
+        position: relative;
+        img{
+            max-width: 100%;    
+        }
+        .img_first{}
+        .img_second{
+            position: absolute;
+            left: 0;
+            top: 100px;
+        }
+    }
+}
+.h_work_content_info{
+    padding-top: 100px;
+    h2{
+        font: 600 40px/45px $ral;
+        color: #24292f;
+    }  
+    p{
+        font: 300 14px/24px $mon;
+        color: #696c70;
+        padding-top: 20px;
+    }
+    .video_pop{
+        font: 600 12px/24px $ral;
+        color: #898b8e;
+        text-transform: uppercase;
+        text-decoration: underline;
+        padding-top: 35px;
+        display: inline-block;
+        i{
+            width: 46px;
+            height: 46px;
+            background: #fff;
+            border: 1px solid $baseColor;
+            color: $baseColor;
+            text-align: center;
+            line-height: 46px;
+            border-radius: 50%;
+            box-shadow: -5px 5px 22px 0px rgba(0, 0, 0, 0.23);
+            margin-right: 15px;
+        }
+    }
+}
+
+
+/* ==================== team_area_eight css =================== */
+.team_area_eight{
+    padding: 120px 0px;
+}
+.team_eight-item{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    img{
+        max-width: 100%;
+        transition: all 0.8s linear;
+    }
+    .hover_content{
+        display: flex;
+        position: absolute;
+        bottom: 20px;
+        padding: 25px 0px 25px 30px;
+        z-index: 1;
+        width: 100%;
+        &:before{
+            content: "";
+            width: 100%;
+            left: 0;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            z-index: -1;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            transition: all 0.3s linear;
+            background: $baseColor;
+        }
+        &:after{
+            content: "";
+            width: 74%;
+            left: 0;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.80);
+            top: 0;
+            position: absolute;
+            z-index: -1;
+        }
+        .text{
+            font-family: $ral;
+            color: #fff;
+            
+            h3{
+                font-size: 18px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+            h6{
+                font-weight: 300;
+            }
+        }
+        .icon{
+            position: absolute;
+            right: 30px;
+            align-self: center;
+            visibility: hidden;
+            opacity: 0;
+            a{
+                width: 34px;
+                height: 34px;
+                border: 1px solid #76b0ef;
+                border-radius: 2px;
+                display: inline-block;
+                text-align: center;
+                font-size: 12px;
+                line-height: 34px;
+                color: #fff;
+            }
+        }
+    }
+    &:hover{
+        img{
+            transform: scale(1.1);
+        }
+        .hover_content{
+            &:before{
+                transform: scaleX(1);
+            }
+            &:after{
+                background: transparent;
+                transition: all 0.4s linear;
+            }
+            .icon{
+                opacity: 1;
+                visibility: visible;
+                transition: all 1.2s linear;
+                a{
+                    margin: 0px 4px;
+                    &:hover{
+                        background: #fff;
+                        color: $baseColor;
+                        border-color: #fff;
+                        transition: all 0.2s linear;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+.progress_bar_area{
+    position: relative;
+    background: #000;
+    padding: 105px 0px;
+    z-index: 1;
+    .bcg_parallax{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/home8/progress-bg.jpg) no-repeat scroll 0 0 / cover;
+        opacity: 0.20;
+        background-attachment: fixed;
+    }
+    .progress_item{
+        color: #fff;
+        h3{
+            font: 600 50px/65px $mon;
+            i{
+                font-size: 44px;
+            }
+            span{
+                font-weight: 300;
+                padding: 0px 8px;
+            }
+        }  
+        h6{
+            font: 500 20px/25px $ral;
+            padding-left: 80px;
+        }
+    }
+}
+
+/* ================== blog_area eight css ================*/
+.blog_area_eight{
+    padding: 113px 0px 90px;
+}
+.blog_eight_item{
+    img{
+        max-width: 100%;
+    }
+    .blog_content{
+        padding-left: 30px;
+        padding: 24px 5px 17px 30px;
+        .date_meta{
+            h6{
+                display: inline-block;
+                font: 400 14px/20px $ral;
+                & + h6{
+                    &:before{
+                        content: "/";
+                        display: inline-block;
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
+        h2{
+            font: 600 20px/26px $ral;
+            color: #24292f;
+            padding: 10px 0px 15px;
+        }
+        p{
+            color: #696c70;
+            padding-bottom: 8px;
+        }
+        a{
+            font: 300 12px/40px $mon;
+            color: #24292f;
+            text-transform: uppercase;
+            letter-spacing: 0px;
+            transition: all 0.5s linear;
+            i{
+                transition: all 0.2s linear;
+            }
+            &:hover{
+                text-decoration: underline;
+                color: $baseColor;
+                i{
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

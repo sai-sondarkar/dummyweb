@@ -1,0 +1,117 @@
+/*===================== contact_area css ======================*/
+.contact_area{
+    h2{
+        font: 700 22px/30px $ral;
+        color: #24292f;
+        padding-bottom: 20px;
+    }
+    p{
+        font: 400 15px/24px $ral;
+        color: #898c90;
+    }
+}
+.contact_inner{
+    border:1px solid rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.14);
+    padding: 53px 40px 40px 40px;
+    margin-bottom: -250px;
+    z-index: 2;
+    position: relative;
+}
+.contact_info{
+    .contact-form{
+        .form-group{
+            margin-bottom: 20px;
+            .form-control{
+                font: 300 14px/30px $mon;
+                color: #77797b;
+                padding: 0px;
+                box-shadow: none;
+                background: #f9f9f9;
+                border: 1px solid transparent;
+                height: 64px;
+                padding-left: 30px;
+                @include placeholder{
+                    color: #77797b;
+                }
+                &:focus{
+                    border-color: rgb(229, 239, 249);
+                    background-color: rgb(255, 255, 255);
+                    box-shadow: 0px 10px 20px 0px rgba(0, 28, 59, 0.08);
+                }
+                &.error + .error{
+                    font-size: 12px;
+                    margin-bottom: 0px;
+                }
+            }
+            textarea{
+                &.form-control{
+                    height: 150px;
+                    padding-top: 17px;
+                }
+            }
+            .thm-btn{
+                font: 600 12px/30px $ral;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: 3.6px;
+                background: $baseColor;
+                padding: 9px 41px;
+                border-radius: 2px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.get_info{
+    padding: 0px 0px 0px 70px;
+    p{
+        padding-bottom: 35px;
+    }
+    .media{
+        margin-bottom: 40px;
+        .icon{
+            width: 55px;
+            height: 55px;
+            background-color: rgb(15, 120, 235);
+            box-shadow: -6px 8px 0px 0px rgba(15, 120, 235, 0.14);
+            font-size: 18px;
+            line-height: 55px;
+            transform: rotate(45deg);
+            color: #fff;
+            text-align: center;
+            border-radius: 10px;
+            i{
+                display: inline-block;
+                transform: rotate(-45deg);
+            }
+        }
+        .media-body{
+            vertical-align: middle;
+            padding-left: 35px;
+            h3{
+                font: 600 16px/24px $ral;
+                color: #24292f;
+            }
+            h5{
+                font:400 15px/24px $ral;
+                color: #676b71;
+                a{
+                    color: #676b71;
+                }
+            }
+        }
+    }
+}
+
+.map{
+    #mapBox{
+        height: 450px;
+    }
+}
+
+.contact-form #success, .contact-form #error {
+    display: none;
+}

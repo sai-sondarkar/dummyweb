@@ -1,0 +1,305 @@
+/*
+Base csss
+*/
+html, body {
+  height: 100%;
+}
+.m0{
+    margin: 0px;
+}
+.p0{
+    padding: 0px;
+}
+section.row{
+    margin: 0px;
+}
+body {
+    font-family: $pop;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f7982;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden !important;
+}
+
+a, button {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+a {
+  color: #ea4452;
+}
+a:hover {
+  color: #aeaeae;
+}
+
+a, a:hover, a:focus, button:hover, button:focus {
+  outline: 0 !important;
+  text-decoration: none;
+}
+
+
+button:focus {
+  outline: 0 !important;
+}
+
+::-moz-selection {
+  background-color: #191b1d;
+  color: #fff;
+}
+
+::selection {
+  background-color: #191b1d;
+  color: #fff;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-four{
+    margin-bottom: 44px;
+    h2{
+        font: 400 36px/45px $pop;
+        color: #1a264a;
+        padding-bottom: 25px;
+    }
+    .br{
+        width: 103px;
+        height: 2px;
+        position: relative;
+        &:before{
+            content: "";
+            width: 30px;
+            background-image: -moz-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+            background-image: -webkit-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+            background-image: -ms-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+        }
+        &:after{
+            content: "";
+            width: 70px;
+            background-image: -moz-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+            background-image: -webkit-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+            background-image: -ms-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+        }
+    }
+    p{
+        font-size: 15px;
+        line-height: 30px;
+        color: #585e68;
+        font-family: $pop;
+        font-weight: 400;
+        padding-top: 40px;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    &.text-center{
+        margin-bottom: 75px;
+        h5{
+            font: 400 16px/40px $pop;
+            color: #8d99b3;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+        }
+        .br{
+            margin: 0 auto;
+        }
+    }
+}
+
+.section_title{
+    text-align: center;
+    max-width: 630px;
+    margin: 0px auto 75px;
+    h2{
+        font-size: 36px;
+        line-height: 45px;
+        font-family: $rob;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        padding-bottom: 25px;
+    }
+    p{
+        font: 400 16px/28px $rob;
+        color: #fff;
+    }
+}
+
+.section_title_three{
+    text-align: center;
+    margin-bottom: 75px;
+    .title_three{
+        padding-bottom: 25px;
+        &:before{
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    p{
+        max-width: 800px;
+        margin: 33px auto 0px;
+    }
+}
+
+.title_three{
+    font: 400 36px/45px $rob;
+    color: #1a264a;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 30px;
+    &:before{
+        content: "";
+        width: 100px;
+        height: 2px;
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background: #ef494d;
+    }
+}
+
+.color-b{
+    color: #324865;
+    font-weight: 500;
+    &:before{
+        background: #4c83ff;
+    }
+}
+
+
+.title-five{
+    text-align: center;
+    margin-bottom: 95px;
+    h2{
+        font-weight: 600;
+        font-family: $pop;
+        color: #fff;
+    }
+    p{
+        max-width: 650px;
+        margin: 0 auto;
+        color: #fff;
+    }
+    .br{
+        margin: 0 auto;
+        &:before,&:after{
+            width: 48%;
+            background: #fff;
+        }
+    }
+}
+
+
+.violate-dk{
+    background: #654dc2;
+}
+.violate-l{
+    background: #694fc9;
+}
+.section_title_two{
+    text-align: center;
+    margin-bottom: 100px;
+    h2{
+        font: 700 48px/62px $mon;
+        color: #363b3e;
+    }
+    p{
+        max-width: 800px;
+        margin: 10px auto 0px;
+        font-family: $lato;
+        font-weight: 400;
+        color: #73787c;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.35px;
+    }
+}
+
+
+.title-six{
+    margin-bottom: 43px !important;
+}
+
+.sec_title{
+    margin-bottom: 25px;
+    h5{
+        font: 400 16px/35px $open;
+        letter-spacing: 1.6px;
+        color: #666666;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    h2{
+        font: 300 30px/35px $open;
+        color: #333333;
+        position: relative;
+        padding-bottom: 28px;
+        &:before{
+            content: "";
+            width: 30px;
+            height: 2px;
+            background-image: -moz-linear-gradient( 0deg, rgb(124,107,255) 0%, rgb(136,226,255) 100%);
+            background-image: -webkit-linear-gradient( 0deg, rgb(124,107,255) 0%, rgb(136,226,255) 100%);
+            background-image: -ms-linear-gradient( 0deg, rgb(124,107,255) 0%, rgb(136,226,255) 100%);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
+.sec_center{
+    text-align: center;
+    h2{
+        &:before{
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+.section_title_eight{
+    text-align: center;margin-bottom: 60px;
+    h2{
+        color: #24292f;
+        font: 600 36px/40px $ral;
+        text-transform: capitalize;
+        padding-bottom: 18px;
+    }
+    p{
+        font: 300 14px/24px $mon;
+        color: #696c70;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.display_flex{
+    display: flex;
+    .flex{
+        flex: 1;
+        align-self: center;
+    }
+}

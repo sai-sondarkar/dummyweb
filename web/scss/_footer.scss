@@ -1,0 +1,377 @@
+/*============= Start support area css =================*/
+.footer-top{
+    background: #2a2a2a;
+    padding: 118px 0px;
+    .footer_sidebar{
+        .widget{
+            font: 400 16px/28px $rob;
+            color: rgba(255, 255, 255, 0.50);
+            .logo{
+                padding-bottom: 30px;
+                display: block;
+            }
+            .widget_title{
+                font: 700 16px/21px $open;
+                color: #fff;
+                letter-spacing: 0.8px;
+                text-transform: uppercase;
+                padding-bottom: 33px;
+            }
+            &.about_us_widget{
+                .social_icon{
+                    padding-top: 37px;
+                    li{
+                        display: inline-block;
+                        a{
+                            font-size: 14px;
+                            padding: 0px 0px 0px 18px;
+                            transition: all 0.1s linear;
+                            background: transparent;
+                            i{
+                                color: #fff;
+                                opacity: 0.50;
+                            }
+                        }
+                        &:hover{
+                            i{
+                                color: #4c83ff;
+                                opacity: 1;
+                            }
+                        }
+                        &:first-child{
+                            a{
+                                padding-left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.widget_contact{
+                ul{
+                    li{
+                        display: table;
+                        width: 100%;
+                        i{
+                            float: left;
+                            font-size: 14px;
+                            color: #fff;
+                            opacity: 0.30;
+                            line-height: 30px;
+                            width: 30px;
+                        }
+                        .fleft{
+                            float: left;
+                            width: calc(100% - 30px);
+                            a{
+                                color: #fff; 
+                                opacity: 0.50;
+                                &:hover{
+                                    color: #4c83ff;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        & + li{
+                            padding-top: 18px;
+                        }
+                    }
+                }
+            }
+            &.widget_twitter{
+                padding-right: 50px;
+                .tweets{
+                    li{
+                        width: 100%;
+                        display: table;
+                        i{
+                            float: left;
+                            width: 35px;
+                            font-size: 16px;
+                            line-height: 30px;
+                            color: #fff;
+                            opacity: 0.20;
+                        }
+                        .tweets-text{
+                            float: left;
+                            width: calc(100% - 35px);
+                            a{
+                                opacity: 1;
+                                color: #fff;
+                                transition: all 0.1s linear;
+                                &:hover{
+                                    color: #4c83ff;
+                                }
+                            }
+                        }
+                        & + li{
+                            padding-top: 25px;
+                        }
+                    }
+                }
+            }
+            &.widget_instagram{
+                overflow: hidden;
+                .instagram-feed{
+                    margin-left: -3px;
+                    margin-right: -3px;
+                    overflow: hidden;
+                    max-width: 270px;
+                    li{
+                        float: left;
+                        padding: 3px;
+                        width: calc(100% / 3);
+                        a{
+                            display: block;
+                            img{
+                                max-width: 100%;
+                            }
+                        }
+                    }
+                }
+                span{
+                    font-size: 14px;
+                    letter-spacing: 0.20px;
+                    padding-top: 17px;
+                    display: block;
+                    width: 100%;
+                    a{
+                        color: #fff;
+                        &:hover{
+                            color: #4c83ff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer_bottom{
+    background: #242424;
+    font: 400 16px/20px $rob;
+    color: rgba(255, 255, 255, 0.30);
+    padding: 30px 0px;
+    a{
+        color: #fff;
+        opacity: 0.3;
+        &:hover{
+            color: #4c83ff;
+            opacity: 1;
+        }
+    }
+    .footer-menu{
+        width: 100%;
+        text-align: right;
+        li{
+            display: inline-block;
+            & + li{
+                padding-left: 38px;
+            }
+        }
+    }
+}
+/*============= End footer area css =================*/
+
+.footer-four{
+    .footer-top{
+        .footer_sidebar{
+            .widget{
+                &.about_us_widget .social_icon li:hover i,&.widget_contact ul li .fleft a:hover,&.widget_twitter .tweets li .tweets-text a:hover,&.widget_instagram span a:hover{
+                    color: #6f55d4;
+                }
+            }
+        } 
+    }
+    .footer_bottom a{
+        &:hover{
+            color: #6f55d4;
+        }
+    }
+}
+
+
+
+.footer-five{
+    .footer-top{
+        background: #f9f8ff;
+        .footer_sidebar{
+            .widget{
+                font: 400 15px/28px $open;
+                color: #585e68;
+                .widget_title_two{
+                    font: 700 16px/21px $open;
+                    color: #1a264a;
+                    text-transform: uppercase;
+                    position: relative;
+                    padding-bottom: 18px;
+                    margin-bottom: 25px;
+                    &:before{
+                        content: "";
+                        width: 50px;
+                        height: 2px;
+                        background-image: -moz-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+                        background-image: -webkit-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+                        background-image: -ms-linear-gradient( 0deg, rgb(76,132,255) 0%, rgb(120,61,255) 100%);
+                        position: absolute;
+                        bottom: 0;
+                    }
+                }
+                &.widget_contact{
+                    ul{
+                        li{
+                            i{
+                                color: #585e68;
+                                opacity: 1;
+                            }
+                            .fleft{
+                                a{
+                                    color: #585e68;
+                                    opacity: 1;
+                                    &:hover{
+                                        color: #ba77ff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.widget_link{
+                    .link{
+                        li{
+                            a{
+                                font: 400 15px/18px $open;
+                                letter-spacing: 0.30px;
+                                color: #585e68;
+                                text-transform: capitalize;
+                                padding-bottom: 15px;
+                                display: inline-block;
+                                &:hover{
+                                    color: #ba77ff;
+                                }
+                            }
+                        }
+                    }
+                }
+                &.widget_social{
+                    padding-left: 60px;
+                    .social-icon{
+                        li{
+                            a{
+                                font: 400 15px/18px $open;
+                                letter-spacing: 0.30px;
+                                color: #585e68;
+                                display: inline-block;
+                                padding-bottom: 15px;
+                                &:hover{
+                                    color: #ba77ff;
+                                }
+                                i{
+                                    padding-right: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .footer_bottom{
+        background: #f3f1fb;
+        color: rgba(88, 94, 104, 0.50);
+        a{
+            color: #585e68;
+            opacity: 0.50;
+            &:hover{
+                color: #ba77ff;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.footer-five-color{
+    .widget.widget_contact ul li .fleft a:hover,.widget.about_us_widget .social_icon li:hover i,.widget.widget_twitter .tweets li .tweets-text a:hover,.widget.widget_instagram span a:hover{
+        color: #ba77ff !important;
+    }
+}
+.footer-five-bottom{
+    a{
+        &:hover{
+            color: #ba77ff;
+        }
+    }
+}
+
+/*Start footer_bootom_two css
+=====================================*/
+.footer_bootom_two{
+    background: #f6fcfd;
+    color: #666666;
+    a{
+        color: #666666;
+        opacity: 1;
+    }
+}
+
+
+
+
+.footer_area_eight{
+    background: #24292f;
+    padding: 120px 0px 110px;
+    .widget{
+        h2{
+            font: 600 20px/22px $ral;
+            color: #fff;
+            padding-bottom: 33px;
+        }
+    }
+    .about_us_widget{
+        p{
+            font: 400 14px/26px $ral;
+            color: #fff;
+            padding: 15px 0px 12px;
+        }
+        .copy_wright{
+            font: 500 12px/40px $ral;
+            color: #9fa4a9;
+            text-transform: uppercase;
+            a{
+                color: $baseColor;
+            }
+        }
+    }
+    .link_widget{
+        ul{
+            li{
+                a{
+                    font: 400 12px/20px $ral;
+                    display: inline-block;
+                    color: #fff;
+                    text-transform: uppercase;
+                    margin-bottom: 3px;
+                    &:hover{
+                        text-decoration: underline;
+                        color: $baseColor;
+                    }
+                }
+            }
+        }
+    }
+    .social_widget{
+        ul{
+            li{
+                display: inline-block;
+                a{
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #fff;
+                    margin-right: 14px;
+                    &:hover{
+                        color: $baseColor;
+                    }
+                }
+            }
+        }
+    }
+}

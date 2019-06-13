@@ -1,0 +1,29 @@
+// Mixins
+@mixin transition($property: all, $duration: 400ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+/*color variables
+==================================*/
+$title:#1a264a;
+$pcolor:#585e68;
+$baseColor: #0270e9;
+
+/*font variables
+===============================*/
+$ral: 'Raleway', sans-serif;
+$rob:'Roboto', sans-serif;
+$open:'Open Sans', sans-serif;
+$mon: 'Montserrat', sans-serif;
+$pop: 'Poppins', sans-serif;
+$lato: 'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500,700|Montserrat:400,500,600,700|Lato:400,700|Poppins:400,500,700|Raleway:400,400i,500,600,700,800');
