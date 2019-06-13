@@ -1,1 +1,139 @@
-blog
+{% extends '_layout' %}
+
+{% block main %}
+
+<section class="blog_banner_area about_banner_area single_post titlebar">
+        <div class="container">
+            <div class="banner-content wow fadeInUp">
+                <h1 class="page-cover-tittle"> {{entry.title}}</h1>
+                <h2> {{entry.blogIntroduction}}</h2>
+            </div>
+        </div>
+    </section>
+    <section class="blog-area blog_single_area sec-pad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <div class="blog-section blog_single">
+                        <div class="blog-section blog_single">
+                            <article class="blog-items">
+                                <div class="blog-content">
+                                    <p class=" wow fadeInUp">{{entry.blogBody}}</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <section class="comment_area no_comments  wow fadeInUp" id="comments">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="comment_text">
+                                    <h2 class="comment-title"> Leave a comment </h2>
+                                </div>
+                                <div id="respond" class="comment-respond">
+                                    <h3 id="reply-title" class="comment-reply-title"> <small><a id="cancel-comment-reply-link" href="#">Cancel reply</a></small></h3>
+                                    <form action="#" method="post" id="commentform" class="contact-form" novalidate>
+                                        <div class="row">
+                                            <div class="col-sm-6 col-xs-12">
+                                                <input type="text" class="form-control" name="author" id="name" value="" placeholder="Name *" aria-required='true'>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-12">
+                                                <input type="email" class="form-control" name="email" id="email" value="" placeholder="Email *" aria-required='true'>
+                                            </div>
+<!--
+                                            <div class="col-sm-12 col-xs-12">
+                                                <input type="url" class="form-control" name="url" value="" placeholder="Website (Optional)">
+                                            </div>
+-->
+                                            <div class="col-sm-12 col-xs-12">
+                                                <textarea name="comment" class="form-control" placeholder="Your Comment"></textarea>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <p class="form-submit"><input name="submit" type="submit" id="submit" class="btn sub_btn" value="Post Comment" /></p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="blog-sidebar">
+                        <div id="search-2" class="widget sidebar-widget widget_search wow fadeInUp">
+                            <form action="#" class="search-form input-group"><input name="s" class="form-control" placeholder="Search" type="search"><span class="input-group-addon"><button type="submit"><i class="ti-search"></i></button></span></form>
+                        </div>
+                        <div class="widget sidebar-widget post-widget">
+                            <h2 class="widget_title wow fadeInUp">Recent Posts</h2>
+                            <div class="media wow fadeInUp">
+                                <div class="media-left"><a href="#"><img class="media-object" src="images/blog/blog_single_small_1.jpg" alt="This is what you should be looking for on this community"></a></div>
+                                <div class="media-body"><a class="tn_tittle" href="#" title="This is what you should be looking for on this community"> This is what you should be looking for on this... </a>
+                                    <ul class="recent_post_meta">
+                                        <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> May 10, 2018 </a></li>
+                                        <!-- <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 0 comment </a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="media wow fadeInUp">
+                                <div class="media-left"><a href="#"><img class="media-object" src="images/blog/blog_single_small_2.jpg" alt="This is what you should be looking for on this community"></a></div>
+                                <div class="media-body"><a class="tn_tittle" href="#" title="This is what you should be looking for on this community"> The number of friends and will g... </a>
+                                    <ul class="recent_post_meta">
+                                        <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> May 10, 2018 </a></li>
+                                        <!-- <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 0 comment </a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="media wow fadeInUp">
+                                <div class="media-left"><a href="#"><img class="media-object" src="images/blog/blog_single_small_3.jpg" alt="This is what you should be looking for on this community"></a></div>
+                                <div class="media-body"><a class="tn_tittle" href="#" title="This is what you should be looking for on this community"> You will also lose the chance to  ... </a>
+                                    <ul class="recent_post_meta">
+                                        <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> Feb 8, 2018 </a></li>
+                                        <!-- <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 0 comment </a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="media wow fadeInUp">
+                                <div class="media-left"><a href="#"><img class="media-object" src="images/blog/blog_single_small_4.jpg" alt="This is what you should be looking for on this community"></a></div>
+                                <div class="media-body"><a class="tn_tittle" href="#" title="This is what you should be looking for on this community"> Sed do eiusmod tempor labore et dol... </a>
+                                    <ul class="recent_post_meta">
+                                        <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> Feb 8, 2018 </a></li>
+                                        <!-- <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 0 comment </a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="media wow fadeInUp">
+                                <div class="media-left"><a href="#"><img class="media-object" src="images/blog/blog_single_small_2.jpg" alt="This is what you should be looking for on this community"></a></div>
+                                <div class="media-body"><a class="tn_tittle" href="#" title="This is what you should be looking for on this community"> To make the profile unique, you can M... </a>
+                                    <ul class="recent_post_meta">
+                                        <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> Feb 8, 2018 </a></li>
+                                        <!-- <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 0 comment </a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget sidebar-widget widget_recent_comments">
+                            <h2 class="widget_title wow fadeInUp">Recent Comments</h2>
+                            <ul id="recentcomments" class="wow fadeInUp">
+                                <li class="recentcomments"><span class="comment-author-link">Eh Jewel</span> on <a href="#">App Landing Theme Design</a></li>
+                                <li class="recentcomments"><span class="comment-author-link">Rony</span> on <a href="#">Inova Corporate Theme</a></li>
+                                <li class="recentcomments"><span class="comment-author-link">Rashed</span> on <a href="#">Chaoz Multiperpose Wp Theme</a></li>
+                                <li class="recentcomments"><span class="comment-author-link">Masud Rana</span> on <a href="#">Styler WordPress Theme</a></li>
+                                <li class="recentcomments"><span class="comment-author-link">Sayed</span> on <a href="#">Explore New Things</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget sidebar-widget widget_archive">
+                            <h2 class="widget_title wow fadeInUp">Archives</h2>
+                            <ul class=" wow fadeInUp">
+                                <li><a href="#">May 2018</a></li>
+                                <li><a href="#">February 2018</a></li>
+                                <li><a href="#">June 2018</a></li>
+                                <li><a href="#">December 2018</a></li>
+                                <li><a href="#">January 2019</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

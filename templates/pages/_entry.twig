@@ -1,1 +1,498 @@
-pages
+{% extends '_layout' %}   
+
+{% block main %}
+   
+   <!-- Start Banner Area -->
+    <section class="row hero-banner-area video_bg" id="home">
+        <div class="video-background">
+            <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=5_-NKRVn7IQ&t=21s', containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:0.2, addRaster:true, quality:'default'}"></div>
+        </div>
+        <div class="col-lg-6 p0 display-flex">
+            <div class="flex">
+                <div class="banner-content wow fadeInUp">
+                    <h1>Welcome To Appart</h1>
+                    <p>Excepteur sint occaecat cupidatat non proident,<br> sunt in culpa qui officia mollit anim.</p>
+                    <a class="banner_btn btn-white" href="#get-app">Get app now</a>
+                    <a class="banner_btn btn-transparent" href="#">Discover more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+    <section class="overview-area" id="overview">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-12 overview-details-left">
+                    <div class="whychoose-img wow fadeInLeft">
+                        <img src="images/home6/f_image.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 overview-details-right">
+                    <div class="overview-details wow fadeInUp">
+                        <div class="title-four">
+                            <h2>Beautiful Design</h2>
+                            <div class="br"></div>
+                        </div>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#" class="btn learn-btn-two">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features_area feature-bg ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 features_content_three wow fadeInLeft">
+                    <div class="title-four">
+                        <h2>Data Analytics</h2>
+                        <div class="br"></div>
+                    </div>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Enterprise reporting and tiered access organizes administrative users into hierarchical groups, creating relevant access levels for each user account.</p>
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="icon">
+                                <i class="ti-pie-chart"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            Enterprise Reporting with Tiered Access
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="icon">
+                                <i class="ti-stats-up"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            Basket Data and User Demographics
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <div class="icon">
+                                <i class="ti-server"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            Accurate Market Segmentation
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-sm-12 f_img text-right wow fadeInRight">
+                    <img src="images/home/white-phone.png" alt="featured">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video_area" id="video">
+        <div class="video-left">
+            <div class="video-inner wow fadeInLeft">
+                <div class="title-four">
+                    <h2>Discover The New App</h2>
+                    <div class="br"></div>
+                </div>
+                <p>Retarget past customers with second-chance offers and reach new audiences with geo-targeted campaigns during peak dining times using Forks’ push notifications.</p>
+                <button class="play-btn">Play the video</button>
+            </div>
+        </div>
+        <div class="video-right wow fadeInRight">
+            <div class="videoWrapper videoWrapper169 js-videoWrapper">
+                <iframe class="videoIframe js-videoIframe" data-src="https://www.youtube.com/embed/hgzzLIa-93c?autoplay=1&amp; modestbranding=1&amp;rel=0&amp;hl=sv"></iframe>
+                <button class="videoPoster js-videoPoster" style=""></button>
+            </div>
+        </div>
+    </section>
+    <section class="features-area3" id="feature">
+        <div class="container">
+            <div class="title-four text-center wow fadeInUp">
+                <h5>Our Products</h5>
+                <h2>Awesome Features</h2>
+                <div class="br"></div>
+            </div>
+            <ul class="nav nav-tabs features-tab wow fadeInUp" role="tablist">
+                <li role="presentation" class="nav-item">
+                    <a href="#serviceNo-1" class="nav-link active" aria-controls="serviceNo-1" role="tab" data-toggle="tab" aria-expanded="true">1. Customer service for humans</a>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <a href="#serviceNo-2" class="nav-link" aria-controls="serviceNo-2" role="tab" data-toggle="tab">2. Powerfully productive agents</a>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <a href="#serviceNo-3" class="nav-link" aria-controls="serviceNo-3" role="tab" data-toggle="tab">3. Self-service satisfaction</a>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <a href="#serviceNo-4" class="nav-link" aria-controls="serviceNo-4" role="tab" data-toggle="tab">4. Customer service for humans</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade show active" id="serviceNo-1">
+                    <div class="row">
+                        <div class="col-md-6 tab-col">
+                            <div class="overview-details wow fadeInLeft">
+                                <div class="title-four">
+                                    <h2>Construction Service</h2>
+                                    <div class="br"></div>
+                                </div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="btn learn-btn-two">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 tab-col">
+                            <div class="feat-img wow fadeInRight">
+                                <img class="img-responsive" src="images/home/features-img.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane tab2 fade" id="serviceNo-2">
+                    <div class="row">
+                        <div class="col-md-6 tab-col">
+                            <div class="feat-img wow fadeInLeft">
+                                <img class="img-responsive" src="images/home/features-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 tab-col">
+                            <div class="overview-details wow fadeInRight">
+                                <div class="title-four">
+                                    <h2>Construction Service</h2>
+                                    <div class="br"></div>
+                                </div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="btn learn-btn-two">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="serviceNo-3">
+                    <div class="row">
+                        <div class="col-md-6 tab-col">
+                            <div class="overview-details wow fadeInLeft">
+                                <div class="title-four">
+                                    <h2>Beautiful Design</h2>
+                                    <div class="br"></div>
+                                </div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="btn learn-btn-two">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 tab-col">
+                            <div class="feat-img wow fadeInRight">
+                                <img class="img-responsive" src="images/home/features-img.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane tab2 fade" id="serviceNo-4">
+                    <div class="row">
+                        <div class="col-md-6 tab-col">
+                            <div class="feat-img wow fadeInLeft">
+                                <img class="img-responsive" src="images/home/features-img.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 tab-col">
+                            <div class="overview-details wow fadeInRight">
+                                <div class="title-four">
+                                    <h2>Beautiful Design</h2>
+                                    <div class="br"></div>
+                                </div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="btn learn-btn-two">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team_area_solid feature-bg" id="team">
+        <div class="container">
+            <div class="title-four text-center wow fadeInUp">
+                <h2>Explore Our team</h2>
+                <div class="br"></div>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut<br> fugit, sed consequuntur magni dolores ratione voluptatem sequi nesciunt.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="team_member wow fadeInUp">
+                        <img src="images/home/team.jpg" alt="member">
+                        <div class="content">
+                            <h2>John Wilson</h2>
+                            <h6>Ceo Founder</h6>
+                            <p>Nullam dictum sapien vitae lorem ultr varius. Nulla volutpat nisl augue Proin vehicula mauris.</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="team_member wow fadeInUp">
+                        <img src="images/home/team2.png" alt="member">
+                        <div class="content">
+                            <h2>Derrick Musson</h2>
+                            <h6>Graphic</h6>
+                            <p>Nullam dictum sapien vitae lorem ultr varius. Nulla volutpat nisl augue Proin vehicula mauris.</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="team_member wow fadeInUp">
+                        <img src="images/home/team3.jpg" alt="member">
+                        <div class="content">
+                            <h2>Toni Roberts</h2>
+                            <h6>UX Designer</h6>
+                            <p>Nullam dictum sapien vitae lorem ultr varius. Nulla volutpat nisl augue Proin vehicula mauris.</p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing-area" id="price">
+        <div class="container">
+            <div class="title-four text-center wow fadeInUp">
+                <h2>Pricing Table</h2>
+                <div class="br"></div>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut<br> fugit, sed consequuntur magni dolores ratione voluptatem sequi nesciunt.</p>
+            </div>
+            <ul class="nav nav-tabs price-tab wow fadeInUp" role="tablist">
+                <li role="presentation" class="nav-item">
+                    <a href="#price-1" class="nav-link active" aria-controls="price-1" role="tab" data-toggle="tab" aria-expanded="true">Monthly</a>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <a href="#price-2" class="nav-link" aria-controls="price-2" role="tab" data-toggle="tab">Yearly</a>
+                </li>
+            </ul>
+            <div class="tab-content priceing-tab">
+                <div role="tabpanel" class="tab-pane active" id="price-1">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 price">
+                            <div class="pricing-box wow fadeInUp">
+                                <div class="pricing-header">
+                                    <h2>Free</h2>
+                                    <h3 class="packeg_typ"><span>$</span>0<small> Lifetime</small></h3>
+                                </div>
+                                <ul class="list-unstyled plan-lists">
+                                    <li>One User</li>
+                                    <li>1000 ui elements</li>
+                                    <li>E-mail support</li>
+                                </ul>
+                                <a href="#" class="try">Try Now</a>
+                                <a href="#" class="purchase-btn">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 price">
+                            <div class="pricing-box active wow fadeInUp">
+                                <div class="pricing-header">
+                                    <h2>Professional</h2>
+                                    <h3 class="packeg_typ"><span>$</span>49<small> Lifetime</small></h3>
+                                </div>
+                                <ul class="list-unstyled plan-lists">
+                                    <li>Ten Users</li>
+                                    <li>3000 ui elements</li>
+                                    <li>E-mail support</li>
+                                </ul>
+                                <a href="#" class="try">Try Now</a>
+                                <a href="#" class="purchase-btn">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 price">
+                            <div class="pricing-box wow fadeInUp">
+                                <div class="pricing-header">
+                                    <h2>Business</h2>
+                                    <h3 class="packeg_typ"><span>$</span>99<small> Lifetime</small></h3>
+                                </div>
+                                <ul class="list-unstyled plan-lists">
+                                    <li>Unlimited User</li>
+                                    <li>Unlimited ui elements</li>
+                                    <li>E-mail support</li>
+                                </ul>
+                                <a href="#" class="try">Try Now</a>
+                                <a href="#" class="purchase-btn">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane tab2" id="price-2">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 price">
+                            <div class="pricing-box wow fadeInUp">
+                                <div class="pricing-header">
+                                    <h2>Free</h2>
+                                    <h3 class="packeg_typ"><span>$</span>49<small> Lifetime</small></h3>
+                                </div>
+                                <ul class="list-unstyled plan-lists">
+                                    <li>Unlimited User</li>
+                                    <li>Unlimited ui elements</li>
+                                    <li>E-mail support</li>
+                                </ul>
+                                <a href="#" class="try">Try Now</a>
+                                <a href="#" class="purchase-btn">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 price">
+                            <div class="pricing-box active wow fadeInUp">
+                                <div class="pricing-header">
+                                    <h2>Professional</h2>
+                                    <h3 class="packeg_typ"><span>$</span>99<small> Lifetime</small></h3>
+                                </div>
+                                <ul class="list-unstyled plan-lists">
+                                    <li>Unlimited User</li>
+                                    <li>Unlimited ui elements</li>
+                                    <li>E-mail support</li>
+                                </ul>
+                                <a href="#" class="try">Try Now</a>
+                                <a href="#" class="purchase-btn">Purchase</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 price">
+                            <div class="pricing-box wow fadeInUp">
+                                <div class="pricing-header">
+                                    <h2>Business</h2>
+                                    <h3 class="packeg_typ"><span>$</span>299<small> Lifetime</small></h3>
+                                </div>
+                                <ul class="list-unstyled plan-lists">
+                                    <li>Unlimited User</li>
+                                    <li>Unlimited ui elements</li>
+                                    <li>E-mail support</li>
+                                </ul>
+                                <a href="#" class="try">Try Now</a>
+                                <a href="#" class="purchase-btn">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call-action-area">
+        <div class="video-bg">
+        </div>
+        <div class="container">
+            <div class="row call-action">
+                <div class="col-md-7 col-sm-12">
+                    <div class="call-text wow fadeInUp">
+                        <h2>Get App Now!</h2>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed consequuntur magni dolores ratione voluptatem sequi nesciunt.</p>
+                        <a href="#" class="app-btn active">
+                            <img src="images/apple-icon.png" alt="">
+                            <img src="images/apple.png" alt="">
+                        </a>
+                        <a href="#" class="app-btn">
+                            <img src="images/google.png" alt="">
+                            <img src="images/google-icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5 wow fadeInUp">
+                    <div class="call-mobile-img">
+                        <img class="img-fluid" src="images/call-mobile1.png" alt="">
+                        <img class="img-fluid" src="images/call-mobile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial_area" id="test">
+        <div class="container">
+            <div class="title-four text-center wow fadeInUp">
+                <h2>Users Review</h2>
+                <div class="br"></div>
+            </div>
+            <div class="row">
+                <div class="testimonial-carousel owl-carousel wow fadeInUp">
+                    <div class="testimonial-item">
+                        <div class="icon">
+                            <img src="images/testimonial/quote.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="rounded-circle" src="images/testimonial/testimonial.png" alt="">
+                            </div>
+                            <div class="media-body">
+                                <h2>Sayedullah Kabed</h2>
+                                <h6>Director @ LenrikMedia</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="icon">
+                            <img src="images/testimonial/quote.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="rounded-circle" src="images/testimonial2.png" alt="">
+                            </div>
+                            <div class="media-body">
+                                <h2>Md. Rony</h2>
+                                <h6>Web Developer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="icon">
+                            <img src="images/testimonial/quote.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="rounded-circle" src="images/testimonial/testimonial.png" alt="">
+                            </div>
+                            <div class="media-body">
+                                <h2>Sayedullah Kabed</h2>
+                                <h6>Director @ LenrikMedia</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="icon">
+                            <img src="images/testimonial/quote.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="rounded-circle" src="images/testimonial2.png" alt="">
+                            </div>
+                            <div class="media-body">
+                                <h2>MD Shams</h2>
+                                <h6>Creative Designer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="analysis_area wow fadeInUp">
+        <div class="container">
+            <h2>We Support All Devices. So use the app anywher, anytime</h2>
+            <img src="images/home/white-mockup.png" alt="mockup">
+            <div class="apps_button">
+                <a href="#"><i class="fa fa-apple"></i>App Store</a>
+                <a href="#"><i class="fa fa-android"></i>Google Play</a>
+                <a href="#"><i class="fa fa-apple"></i>Windows</a>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}
